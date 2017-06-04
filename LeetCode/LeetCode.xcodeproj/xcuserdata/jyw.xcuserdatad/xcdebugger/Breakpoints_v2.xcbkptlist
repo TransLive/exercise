@@ -15,7 +15,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "10"
             endingLineNumber = "10"
-            landmarkName = "TwoSum::twoSum(&lt;#std::vector&lt;int&gt; &amp;nums#&gt;, &lt;#int target#&gt;)"
+            landmarkName = "TwoSum::twoSum(std::vector&lt;int&gt;&amp; nums, int target)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

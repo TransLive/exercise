@@ -19,10 +19,6 @@ public:
     std::vector<int> twoSum(std::vector<int>& nums, int target);
 };
 
-class a{
-public:
-    void aa(int a );
-};
 #endif /* TwoSum_hpp */
 
 

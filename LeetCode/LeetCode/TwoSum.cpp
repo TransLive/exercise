@@ -28,6 +28,7 @@ std::vector<int>  TwoSum::twoSum(std::vector<int>& nums, int target)
 }
 
 //Testcase sample
+//Insert into main
 //    TwoSum ts;
 //    std::vector<int> nums{2,7,11,15};
 //    auto res = ts.twoSum(nums, 9);
