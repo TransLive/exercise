@@ -12,15 +12,20 @@
 struct ListNode {
      int val;
      ListNode *next;
-     ListNode(int x) : val(x), next(NULL) {}
+     ListNode(int x) : val(x), next(NULL) {}//x 和 NULL 分别為 val 和 next 的默認值
  };
 
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        for ()
+        int length = 0;
+        for (ListNode* l = l1;l != NULL;l = l->next)
         {
-            l1 ->
+            length ++;
+        }
+        for (int i = length;i<length;i++)
+        {
+            //ashita
         }
         return NULL;
     }
