@@ -75,8 +75,8 @@
 		52A3911F1EE3B98A007AA2F0 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				520A11361EE3E210000DC2D8 /* AddTwoNumbers */,
 				52A391201EE3B98A007AA2F0 /* main.cpp */,
+				520A11361EE3E210000DC2D8 /* AddTwoNumbers */,
 				52EC0B0C1EE3BBB900D49163 /* TwoSum */,
 				520A11661EE519D7000DC2D8 /* Tools.cpp */,
 				520A11671EE519D7000DC2D8 /* Tools.hpp */,
