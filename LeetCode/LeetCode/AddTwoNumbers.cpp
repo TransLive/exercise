@@ -47,3 +47,16 @@ void AddTwoNumbers::next(ListNode *l)
     else
         return;
 }
+
+/*Testcase sample
+ ListNode * l1 = new ListNode(9);
+ l1->next = new ListNode(9);
+ ListNode * l2 = new ListNode(9);
+ //l2->next = new ListNode(3);
+ AddTwoNumbers* atn = new AddTwoNumbers();
+ auto l = atn->addTwoNumbers(l1, l2);
+ for(;l != NULL;l = l->next)
+ {
+ std::cout << l->val << std::endl;
+ }
+*/
