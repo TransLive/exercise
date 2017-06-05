@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		520A11391EE3E23E000DC2D8 /* AddTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 520A11371EE3E23E000DC2D8 /* AddTwoNumbers.cpp */; };
+		520A11681EE519D7000DC2D8 /* Tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 520A11661EE519D7000DC2D8 /* Tools.cpp */; };
 		52A391211EE3B98A007AA2F0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52A391201EE3B98A007AA2F0 /* main.cpp */; };
 		52EC0B0F1EE3BBF100D49163 /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52EC0B0D1EE3BBF100D49163 /* TwoSum.cpp */; };
 /* End PBXBuildFile section */
@@ -27,6 +28,8 @@
 /* Begin PBXFileReference section */
 		520A11371EE3E23E000DC2D8 /* AddTwoNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AddTwoNumbers.cpp; sourceTree = "<group>"; };
 		520A11381EE3E23E000DC2D8 /* AddTwoNumbers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AddTwoNumbers.hpp; sourceTree = "<group>"; };
+		520A11661EE519D7000DC2D8 /* Tools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tools.cpp; sourceTree = "<group>"; };
+		520A11671EE519D7000DC2D8 /* Tools.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tools.hpp; sourceTree = "<group>"; };
 		52A3911D1EE3B98A007AA2F0 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A391201EE3B98A007AA2F0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		52EC0B0D1EE3BBF100D49163 /* TwoSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
@@ -75,6 +78,8 @@
 				520A11361EE3E210000DC2D8 /* AddTwoNumbers */,
 				52A391201EE3B98A007AA2F0 /* main.cpp */,
 				52EC0B0C1EE3BBB900D49163 /* TwoSum */,
+				520A11661EE519D7000DC2D8 /* Tools.cpp */,
+				520A11671EE519D7000DC2D8 /* Tools.hpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 				520A11391EE3E23E000DC2D8 /* AddTwoNumbers.cpp in Sources */,
 				52EC0B0F1EE3BBF100D49163 /* TwoSum.cpp in Sources */,
 				52A391211EE3B98A007AA2F0 /* main.cpp in Sources */,
+				520A11681EE519D7000DC2D8 /* Tools.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
