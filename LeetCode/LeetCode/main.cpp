@@ -12,6 +12,7 @@
 #include "Tools.hpp"
 #include "TwoSum.hpp"
 #include "AddTwoNumbers.hpp"
+#include "ReverseInteger.hpp"
 int main(int argc, const char * argv[])
 {
 
