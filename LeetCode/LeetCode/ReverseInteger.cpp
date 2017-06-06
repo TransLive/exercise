@@ -17,12 +17,9 @@ long ReverseInteger::reverse(int x)
     {
         temp = temp * 10 + x % 10;
         x = x / 10;
-    }while(x != 0);
-
-    if (std::abs(temp) > __INT32_MAX__) //判斷溢出
-        return 0;
-    else
-        return (int)temp;
+    }while(x);//x == 0 時說明處理完畢
+    
+    return std::abs(temp) > __INT32_MAX__ ? 0 : (int)temp ;
 }
 
 /*Testcase sample
