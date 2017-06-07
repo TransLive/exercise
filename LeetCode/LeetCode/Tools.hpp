@@ -10,10 +10,12 @@
 #define Tools_hpp
 
 #include <stdio.h>
+#include <iostream>
+#include <vector>
 class Tools
 {
 public:
 //    static int Random
-    
+    std::vector<int> static DecToBin(int decimal);
 };
 #endif /* Tools_hpp */

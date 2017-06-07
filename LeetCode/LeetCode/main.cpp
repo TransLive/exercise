@@ -13,8 +13,9 @@
 #include "TwoSum.hpp"
 #include "AddTwoNumbers.hpp"
 #include "ReverseInteger.hpp"
+#include "HammingDistance.hpp"
 int main(int argc, const char * argv[])
 {
-
+    
     return 0;
 }
