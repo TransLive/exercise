@@ -28,16 +28,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		520A11371EE3E23E000DC2D8 /* AddTwoNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AddTwoNumbers.cpp; sourceTree = "<group>"; };
-		520A11381EE3E23E000DC2D8 /* AddTwoNumbers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AddTwoNumbers.hpp; sourceTree = "<group>"; };
-		520A11661EE519D7000DC2D8 /* Tools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tools.cpp; sourceTree = "<group>"; };
-		520A11671EE519D7000DC2D8 /* Tools.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tools.hpp; sourceTree = "<group>"; };
-		520A11811EE65E43000DC2D8 /* ReverseInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseInteger.cpp; sourceTree = "<group>"; };
-		520A11821EE65E43000DC2D8 /* ReverseInteger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ReverseInteger.hpp; sourceTree = "<group>"; };
-		520A11851EE7CB9B000DC2D8 /* HammingDistance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HammingDistance.cpp; sourceTree = "<group>"; };
-		520A11861EE7CB9B000DC2D8 /* HammingDistance.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HammingDistance.hpp; sourceTree = "<group>"; };
+		520A11371EE3E23E000DC2D8 /* AddTwoNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AddTwoNumbers.cpp; path = LeetCode/AddTwoNumbers.cpp; sourceTree = "<group>"; };
+		520A11381EE3E23E000DC2D8 /* AddTwoNumbers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AddTwoNumbers.hpp; path = LeetCode/AddTwoNumbers.hpp; sourceTree = "<group>"; };
+		520A11661EE519D7000DC2D8 /* Tools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tools.cpp; path = LeetCode/Tools.cpp; sourceTree = "<group>"; };
+		520A11671EE519D7000DC2D8 /* Tools.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Tools.hpp; path = LeetCode/Tools.hpp; sourceTree = "<group>"; };
+		520A11811EE65E43000DC2D8 /* ReverseInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ReverseInteger.cpp; path = LeetCode/ReverseInteger.cpp; sourceTree = "<group>"; };
+		520A11821EE65E43000DC2D8 /* ReverseInteger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ReverseInteger.hpp; path = LeetCode/ReverseInteger.hpp; sourceTree = "<group>"; };
+		520A11851EE7CB9B000DC2D8 /* HammingDistance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HammingDistance.cpp; path = LeetCode/HammingDistance.cpp; sourceTree = "<group>"; };
+		520A11861EE7CB9B000DC2D8 /* HammingDistance.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = HammingDistance.hpp; path = LeetCode/HammingDistance.hpp; sourceTree = "<group>"; };
 		52A3911D1EE3B98A007AA2F0 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
-		52A391201EE3B98A007AA2F0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		52A391201EE3B98A007AA2F0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = LeetCode/main.cpp; sourceTree = "<group>"; };
 		52EC0B0D1EE3BBF100D49163 /* TwoSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
 		52EC0B0E1EE3BBF100D49163 /* TwoSum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TwoSum.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,34 +56,43 @@
 		520A11361EE3E210000DC2D8 /* AddTwoNumbers */ = {
 			isa = PBXGroup;
 			children = (
-				520A11371EE3E23E000DC2D8 /* AddTwoNumbers.cpp */,
-				520A11381EE3E23E000DC2D8 /* AddTwoNumbers.hpp */,
 			);
 			name = AddTwoNumbers;
+			path = LeetCode;
 			sourceTree = "<group>";
 		};
 		520A11801EE65E0F000DC2D8 /* ReverseInteger */ = {
 			isa = PBXGroup;
 			children = (
-				520A11811EE65E43000DC2D8 /* ReverseInteger.cpp */,
-				520A11821EE65E43000DC2D8 /* ReverseInteger.hpp */,
 			);
 			name = ReverseInteger;
+			path = LeetCode;
 			sourceTree = "<group>";
 		};
 		520A11841EE7CB5D000DC2D8 /* Hamming Distance */ = {
 			isa = PBXGroup;
 			children = (
-				520A11851EE7CB9B000DC2D8 /* HammingDistance.cpp */,
-				520A11861EE7CB9B000DC2D8 /* HammingDistance.hpp */,
 			);
 			name = "Hamming Distance";
+			path = LeetCode;
 			sourceTree = "<group>";
 		};
 		52A391141EE3B98A007AA2F0 = {
 			isa = PBXGroup;
 			children = (
-				52A3911F1EE3B98A007AA2F0 /* LeetCode */,
+				52A391201EE3B98A007AA2F0 /* main.cpp */,
+				520A11841EE7CB5D000DC2D8 /* Hamming Distance */,
+				520A11851EE7CB9B000DC2D8 /* HammingDistance.cpp */,
+				520A11861EE7CB9B000DC2D8 /* HammingDistance.hpp */,
+				520A11801EE65E0F000DC2D8 /* ReverseInteger */,
+				520A11811EE65E43000DC2D8 /* ReverseInteger.cpp */,
+				520A11821EE65E43000DC2D8 /* ReverseInteger.hpp */,
+				520A11361EE3E210000DC2D8 /* AddTwoNumbers */,
+				520A11371EE3E23E000DC2D8 /* AddTwoNumbers.cpp */,
+				520A11381EE3E23E000DC2D8 /* AddTwoNumbers.hpp */,
+				52EC0B0C1EE3BBB900D49163 /* TwoSum */,
+				520A11661EE519D7000DC2D8 /* Tools.cpp */,
+				520A11671EE519D7000DC2D8 /* Tools.hpp */,
 				52A3911E1EE3B98A007AA2F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,20 +105,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52A3911F1EE3B98A007AA2F0 /* LeetCode */ = {
-			isa = PBXGroup;
-			children = (
-				52A391201EE3B98A007AA2F0 /* main.cpp */,
-				520A11841EE7CB5D000DC2D8 /* Hamming Distance */,
-				520A11801EE65E0F000DC2D8 /* ReverseInteger */,
-				520A11361EE3E210000DC2D8 /* AddTwoNumbers */,
-				52EC0B0C1EE3BBB900D49163 /* TwoSum */,
-				520A11661EE519D7000DC2D8 /* Tools.cpp */,
-				520A11671EE519D7000DC2D8 /* Tools.hpp */,
-			);
-			path = LeetCode;
-			sourceTree = "<group>";
-		};
 		52EC0B0C1EE3BBB900D49163 /* TwoSum */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +112,7 @@
 				52EC0B0E1EE3BBF100D49163 /* TwoSum.hpp */,
 			);
 			name = TwoSum;
+			path = LeetCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
